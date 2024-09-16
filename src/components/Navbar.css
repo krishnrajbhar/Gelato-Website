@@ -1,0 +1,744 @@
+header
+{
+    width: 100%;
+    height: 32px;
+    color: #ffff;
+    font-family: sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+header a
+{
+    font-size: 12px;
+    font-weight: 200;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon img{
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 12px;
+    height: 12px;
+}
+menu
+{
+width: 100%;
+height: 48px;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu-child-1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 240px;
+}
+.menu-child-1 img
+{
+    width: 102px;
+    height: 22px;
+}
+.menu-child2
+{
+    width: 70%;
+    height: 100%;
+}
+.menu-child-2
+{
+    width: 480px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-child-2 h5
+{   
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.menu-child-2 .nav5
+{   
+    
+    width: 110px;
+    height: 30px;
+    border-radius: 40px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.menu-child-2 .nav6{color: white;}
+
+.menu2
+{
+width: 100%;
+height: 41px;
+border: 0.5px solid silver;
+margin: 0;
+display: flex;
+justify-content: center;
+
+}
+.menu2-child-1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-right: 280PX;
+}
+.menu2-child-1 .nav88{color: white;}
+
+.hero-section
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+width: 100%;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hero-main
+{
+    width: 1100px;
+    height: 460px;
+    display: flex;
+}
+.hero-main-child1
+{
+    width: 50%;
+    height: 100%;
+}
+.hero-para1
+{
+    width: 450PX;
+    height: 40%;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 60px;
+    line-height: 3.5rem;
+    margin-top: 15px;
+}
+
+.hero-para2
+{
+    padding-left: 60px;
+    width: 450px;
+    height: 50%;
+}
+.para-child1
+{
+    padding-right: 100px;
+    width: 450px;
+    height: 40px;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para-child1 span
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.para-child2
+{
+    width: 100%;
+    height: 60px; 
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.para-child2 a
+{
+    text-decoration-line: underline;
+}
+.para-child3
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.btn1
+{   
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.btn2
+{   
+    width: 140px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.para-child4
+{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: end;
+}
+.para-child4 img
+{
+    margin-left: 5px;
+    width: 120px;
+    height: 40px;
+}
+.para-child5
+{
+    width: 100%;
+    height: 30px;
+}
+.para-child5 img
+{
+    margin-top: 5px;
+}
+span
+{   
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.para-child6
+{
+    width: 100%;
+    height: 30px;
+        font-size: 13px;
+        font-weight: 200;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-main-child2
+{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    
+}
+.hero-main-child2 img
+{
+    margin-top: o;
+    padding-top: 0px;
+    width: 505px;
+    height: 445px;
+}
+.hero-main-child1 .para2
+{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+
+.feature-section1
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #faf6ef;
+}
+.feature-child
+{   font-size: 20px;
+    font-weight: 500;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.feature-child-1
+{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-child-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+}
+
+.feature-child-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+}
+
+
+.feature-section2
+{
+    width: 100%;
+    height: 720px;
+}
+.feature-section-child-1
+{
+    width: 100%;
+    height: 130px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.feature-section-child-1 h1
+{   
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: -0.2rem;
+}
+
+.feature-section-child-2
+{
+    width: 100%;
+    height: 870px;
+    display: flex;
+}
+
+.feature-section-child-2 .feature1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.feature-section-child-2 .feature1 img
+{
+    width: 520px;
+    height: 520px;
+}
+.feature-section-child-2 .feature2
+{
+    margin-left: 50px;
+    width: 50%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 200;
+}
+.feature-section-child-2 .feature2 h1
+{
+    font-weight: 500;
+}
+.feature-section3
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #faf6ef;
+}
+.feature-section3 .div1
+{
+    width: 50%;
+    height: 90;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+.div1-child-1
+{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.div1-child-2
+{
+    width: 60%;
+    height: 250px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 0px;
+}
+.div1-child-2 span
+{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.div1-child-3
+{
+    width: 60%;
+    height: 70px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.div1-child-4
+{
+    width: 60%;
+    height: 60px;
+}
+.div1-child-4 button
+{
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 30px;
+    background-color: black;
+}
+.feature-section3 .div2
+{
+    width: 50%;
+    height: 90;
+}
+.feature-section3 .div2 img
+{
+    width: 500px;
+    height: 500px;
+}
+.feature-section4
+{
+    width: 100%;
+    height: 580px;
+    display: flex;
+}
+.feature-section4 .div1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+    .feature-section4 .div1 img
+    {
+        width: 520px;
+        height: 520px;
+    }
+.feature-section4 .div2
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.feature-section4 .div2 .div2-child-1
+{
+    font-size: 16px;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.feature-section4 .div2 .div2-child-2
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.feature-section4 .div2 .div2-child-3
+{
+    font-size: 20px;
+    color: #222222;
+    line-height: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.feature-section4 .div2 .div2-child-4
+{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+}
+.feature-section4 .div2 .div2-child-4 button
+{   
+    font-size: 12px;
+    width: 90px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+.feature-section5
+{
+    width: 100%;
+    height: 425px;
+    display: flex;
+    background-color: #faf6ef;
+}
+.feature-section5 .div1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-section5 .div1 .child-1
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 80px;
+    padding-top: 45px;
+}
+.feature-section5 .div1 .child-2
+{
+    font-size: 13px;
+    color: #222222;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 55px;
+    line-height: 5px;
+    padding-top: 65px;
+}
+.feature-section5 .div1 .child-3
+{
+    padding-right: 370px;
+    padding-top: 45px;
+}
+.feature-section5 .div1 .child-3 button
+{
+    font-size: 12px;
+    width: 110px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.feature-section5 .div2
+{
+    width: 50%;
+    height: 100%;
+}
+.feature-section5 .div2 img
+{
+    width: 510px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+
+footer
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+footer .div1
+{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+footer .div1 .child-1
+{
+    width: 280px;
+    height: 100%;
+    background-color: black;
+}
+footer .div1 .child-2
+{
+    width: 620px;
+    height: 100%;
+}
+footer .div1 .child-2 img
+{
+    width: 100px;
+    height: 110px;
+}
+footer .div1 .child-3
+{
+    width: 250px;
+    height: 95%;
+    display: flex;
+    padding-left: 40px;
+    align-items: flex-end;
+}
+footer .div1 .child-3 span
+{
+    
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+}
+footer .div1 .child-4
+{
+    width: 371px;
+    height: 100%;
+}
+footer .div2
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+footer .div2 .child-1
+{
+    width: 280px;
+    height: 100%;
+    background-color: black;
+}
+footer .div2 .child-2
+{
+    width: 320px;
+    height: 100%;
+}
+footer .div2 .child-2 .subchild-1
+{
+    font-size: 11px;
+    color: white;
+}
+footer .div2 .child-2 .subchild-2
+{
+    height: 80px;
+    margin-top: 15px;
+}
+footer .div2 .child-2 .subchild-2 button
+{
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px;
+}
+
+footer .div2 .child-2 .subchild-3
+{
+    color: white;
+    font-size: 14px;
+}
+
+footer .div2 .child-2 .subchild-4 img
+{
+    margin-top: 5px;
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+}
+footer .div2 .child-3
+{
+    width: 150px;
+    height: 100%;
+}
+footer .div2 .child-3 .subchild-1
+{
+    font-size: 14px;
+    color: white;
+}
+footer .div2 .child-3 .subchild-2 p
+{
+    font-size: 11px;
+    line-height: 7px;
+    color: white;
+}
+footer .div2 .child-4
+{
+    width: 110px;
+        height: 100%;
+}
+footer .div2 .child-4 .subchild-1
+{
+    font-size: 14px;
+    color: white;
+}
+footer .div2 .child-4 .subchild-2 p
+{
+    font-size: 11px;
+    line-height: 7px;
+    color: white;
+}
+footer .div2 .child-5
+{
+    width: 160px;
+    height: 100%;
+}
+footer .div2 .child-5 .subchild-1
+{
+    font-size: 14px;
+    color: white;
+}
+footer .div2 .child-5 .subchild-2 p
+{
+    font-size: 11px;
+    line-height: 7px;
+    color: white;
+}
+
+
+footer .div2 .child-6
+{
+    height: 100%;
+}
+footer .div2 .child-6 .subchild-1
+{
+    font-size: 14px;
+    color: white;
+}
+footer .div2 .child-6 .subchild-2 p
+{
+    font-size: 11px;
+    line-height: 7px;
+    color: white;
+}
+
+footer .div2 .child-7
+{
+    height: 100%;
+    background-color: black;
+}
+
+.toggle{
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
